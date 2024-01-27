@@ -1,0 +1,31 @@
+.product-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 5%;
+  width: 100%;
+}
+
+.product-card {
+  width: 320px;
+  height: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+  flex-direction: column;
+  padding: 4px;
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+}
+.image {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.product-card:hover {
+  box-shadow: 0 0 10px #ccc;
+}
